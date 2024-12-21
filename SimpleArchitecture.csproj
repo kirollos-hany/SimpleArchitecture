@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>false</InvariantGlobalization>
+        <LangVersion>11</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FirebaseAdmin" Version="3.0.1" />
+        <PackageReference Include="FluentEmail.Core" Version="3.0.2" />
+        <PackageReference Include="FluentEmail.Mailgun" Version="3.0.2" />
+        <PackageReference Include="FluentEmail.MailKit" Version="3.0.2" />
+        <PackageReference Include="FluentEmail.Mailtrap" Version="2.7.0" />
+        <PackageReference Include="FluentEmail.Razor" Version="3.0.2" />
+        <PackageReference Include="FluentEmail.SendGrid" Version="3.0.2" />
+        <PackageReference Include="FluentEmail.Smtp" Version="3.0.2" />
+        <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+        <PackageReference Include="Google.Apis.Auth" Version="1.68.0" />
+        <PackageReference Include="Hangfire.AspNetCore" Version="1.8.14" />
+        <PackageReference Include="Hangfire.SqlServer" Version="1.8.14" />
+        <PackageReference Include="LanguageExt.Core" Version="4.4.9" />
+        <PackageReference Include="Mapster" Version="7.3.0" />
+        <PackageReference Include="MediatR" Version="12.4.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.8" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.8" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.3.8" />
+        <PackageReference Include="MiniProfiler.EntityFrameworkCore" Version="4.3.8" />
+        <PackageReference Include="MyCSharp.HttpUserAgentParser" Version="3.0.5" />
+        <PackageReference Include="MyCSharp.HttpUserAgentParser.AspNetCore" Version="3.0.5" />
+        <PackageReference Include="QRCoder" Version="1.6.0" />
+        <PackageReference Include="Serilog" Version="4.0.1" />
+        <PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
+        <PackageReference Include="Serilog.Formatting.Compact" Version="3.0.0" />
+        <PackageReference Include="Serilog.Sinks.ApplicationInsights" Version="4.0.0" />
+        <PackageReference Include="Serilog.Sinks.MSSqlServer" Version="7.0.0" />
+        <PackageReference Include="Serilog.UI" Version="2.6.0" />
+        <PackageReference Include="Serilog.UI.MsSqlServerProvider" Version="2.2.3" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.7.3" />
+        <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.7.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Data\Types" />
+    </ItemGroup>
+
+</Project>
